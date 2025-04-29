@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Word Count App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sidebar Menu -->
+    <div class="menu">
+        <button id="wordCountBtn">Word Count</button>
+        <button id="sentenceCountBtn">Sentence Count</button>
+        <button id="lineCountBtn">Line Count</button>
+        <button id="resetBtn">Reset</button>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <h1>Advanced Text Analyzer</h1>
+        <p>Type or paste your text below:</p>
+        <textarea id="inputText" placeholder="Enter text here..." rows="10"></textarea>
+        <div id="result">
+            <p><strong>Word Count:</strong> <span id="wordCountResult">0</span></p>
+            <p><strong>Sentence Count:</strong> <span id="sentenceCountResult">0</span></p>
+            <p><strong>Line Count:</strong> <span id="lineCountResult">0</span></p>
+            <p><strong>Longest Word:</strong> <span id="longestWordResult">N/A</span></p>
+            <p><strong>Average Word Length:</strong> <span id="averageWordLength">0</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
